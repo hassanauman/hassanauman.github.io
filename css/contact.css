@@ -1,0 +1,169 @@
+.contact {
+  display: block;
+  margin: auto;
+}
+
+.contact-card {
+  margin: 5vw auto;
+  display: flex;
+  width: 70vw;
+  height: 40vw;
+  background-color: white;
+  border-radius: 1.25vw;
+  filter: drop-shadow(1.25vw 1.25vw 1.25vw);
+}
+
+.left .box-img {
+  width: 26.25vw;
+  height: 38.75vw;
+  margin: 0.625vw;
+  margin-right: 0;
+  border-radius: 1.25vw;
+}
+
+.left .info {
+  position: absolute;
+  top: 3.125vw;
+  left: 2.5vw;
+  line-height: 6.25vw;
+}
+
+.left .info h1 {
+  font-weight: 600;
+  font-size: 2vw;
+  color: var(--white);
+}
+
+.left .info p {
+  font-size: 1vw;
+  color: white;
+  opacity: 60%;
+  line-height: 1.25vw;
+}
+
+.left .icon-container {
+  display: flex;
+  align-items: center;
+  height: 0;
+  margin-top: 4.375vw;
+}
+
+.left .icon-container img {
+  width: 1.5vw;
+  height: 1.5vw;
+  margin-right: 0.625vw;
+}
+
+.left .icon-container span {
+  color: var(--white);
+  font-size: 1vw;
+}
+
+.right {
+  margin: 2.5vw;
+  width: 100%;
+}
+
+/* FORM */
+form {
+  width: 38.125vw;
+}
+
+.row-col {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1vw;
+}
+
+form .row-col > div > div > label {
+  font-size: 1vw;
+  color: var(--blue);
+  font-weight: 500;
+}
+
+form .row-col > div > div > input {
+  border: none;
+  border-bottom: 0.063vw solid lightgray;
+  padding: 0.688vw 0;
+  width: 17.188vw;
+  font-size: 0.875vw;
+  color: var(--black);
+}
+
+form .row-col > div > div {
+  margin-bottom: 2.5vw;
+}
+
+form .row-col > div > div > input:focus {
+  outline: none;
+  border-bottom: 0.125vw solid var(--blue);
+}
+
+form .center > label {
+  display: block;
+  font-weight: 700;
+  font-size: 1.125vw;
+  color: var(--blue);
+  margin-top: 1vw;
+}
+
+form .center div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25vw;
+}
+
+form .center div div input {
+  margin-right: 0.469vw;
+}
+
+.center div div label {
+  font-weight: 300;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+.center div div input {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  border-bottom: 0.063vw solid lightgray;
+  width: 38.125vw;
+  height: 4.375vw;
+  padding: 0.688vw 0;
+  font-size: 1vw;
+}
+
+.center span {
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 1vw;
+}
+
+textarea:focus {
+  outline: none;
+  border-bottom: 0.125vw solid var(--blue);
+}
+
+button {
+  border: none;
+  background-color: var(--blue);
+  width: 12.5vw;
+  height: 3.125vw;
+  border-radius: 0.313vw;
+  margin-top: 2.5vw;
+  font-size: 1vw;
+  color: var(--white);
+}
+
+button:hover {
+  background-color: #5a7ba0;
+  color: white;
+}
+
+.btn {
+  padding-left: 25.625vw;
+}

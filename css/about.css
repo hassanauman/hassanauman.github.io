@@ -1,0 +1,47 @@
+.about {
+  display: block;
+  margin: auto;
+}
+
+.about-page-title {
+  margin-bottom: 0;
+}
+
+.blue-box {
+  margin: 5vw auto;
+  display: flex;
+  width: 90vw;
+  height: 40vw;
+  background-color: var(--blue);
+  justify-content: baseline;
+  border-radius: 20px;
+}
+
+.blue-box img {
+  position: relative;
+  margin-left: 0;
+  margin-right: 61.218vw;
+  padding-top: 10vw;
+  transition: margin 1s ease-in-out;
+}
+
+.about-text p {
+  padding-top: 7vw;
+  padding-left: 4vw;
+  font-size: 1vw;
+  position: absolute;
+  width: 50vw;
+  line-height: 1.5vw;
+  color: var(--white);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.blue-box:hover img {
+  margin-left: calc(61.218vw - 5%);
+  margin-right: 0;
+}
+
+.blue-box:hover .about-text p {
+  opacity: 100;
+}
