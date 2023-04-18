@@ -45,3 +45,18 @@
 .blue-box:hover .about-text p {
   opacity: 100;
 }
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 700px) {
+  .blue-box img {
+    position: relative;
+    margin-left: calc(61.218vw - 5%);
+    margin-right: 0;
+    padding-top: 10vw;
+    transition: margin 1s ease-in-out;
+  }
+
+  .blue-box .about-text p {
+    opacity: 100;
+  }
+}
