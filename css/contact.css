@@ -91,6 +91,7 @@ form .row-col > div > div > input {
 }
 
 form .row-col > div > div {
+  display: grid;
   margin-bottom: 2.5vw;
 }
 
@@ -99,12 +100,17 @@ form .row-col > div > div > input:focus {
   border-bottom: 0.125vw solid var(--blue);
 }
 
+form .center {
+  display: grid;
+}
+
 form .center > label {
   display: block;
   font-weight: 700;
   font-size: 1.125vw;
   color: var(--blue);
   margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 
 form .center div {
@@ -166,4 +172,11 @@ button:hover {
 
 .btn {
   padding-left: 25.625vw;
+}
+
+input[type="radio"] {
+  margin: auto;
+  width: 1vw;
+  height: 1vw;
+  background-color: var(--blue);
 }
