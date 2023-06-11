@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Challenge</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero" id="hero">
+        <div class="content">
+          <img
+            class="img-mob"
+            src="./assets/images/illustration-sign-up-mobile.svg"
+            alt=""
+          />
+          <div class="left">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <div class="list">
+              <div class="list-i">
+                <img src="./assets/images/icon-list.svg" alt="icon-list" />
+                <span>Product discovery and building what matters</span>
+              </div>
+              <div class="list-i">
+                <img src="./assets/images/icon-list.svg" alt="icon-list" />
+                <span>Measuring to ensure updates are a success</span>
+              </div>
+              <div class="list-i">
+                <img src="./assets/images/icon-list.svg" alt="icon-list" />
+                <span>And much more!</span>
+              </div>
+            </div>
+            <div class="elementor">
+              <label for="email">Email address</label>
+              <span class="err-msg" id="errMsg">Valid email required</span>
+            </div>
+            <input
+              type="email"
+              placeholder="email@company.com"
+              id="mailInput"
+              class="good"
+              title=""
+              required
+            />
+            <button type="submit" id="btn">
+              Subscribe to monthly newsletter
+            </button>
+          </div>
+          <img
+            class="right"
+            src="./assets/images/illustration-sign-up-desktop.svg"
+            alt="illustration-sign-up-desktop"
+          />
+        </div>
+      </div>
+      <div class="success" id="success">
+        <img src="./assets/images/icon-success.svg" alt="icon-success" />
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to
+          <span class="address" id="address"></span>. Please open it and click
+          the button inside to confirm your subscription.
+        </p>
+        <button id="btnTwo">Dismiss message</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
